@@ -1,0 +1,12 @@
+2026-09-15T08:30:00Z INFO Application booted
+2026-09-15T08:30:10Z INFO Background sync task started
+2026-09-15T08:30:15Z INFO Request latency 120 ms
+2026-09-15T08:30:25Z INFO Request latency 180 ms
+2026-09-15T08:30:35Z INFO Request latency 260 ms
+2026-09-15T08:30:45Z WARN memory usage increased by 12%
+2026-09-15T08:30:55Z INFO Request latency 480 ms
+2026-09-15T08:31:05Z INFO Request latency 780 ms
+2026-09-15T08:31:15Z WARN memory leak suspected in session cache
+2026-09-15T08:31:25Z INFO Request latency 3200 ms
+2026-09-15T08:31:26Z WARN Request latency exceeds baseline by 2.5x
+2026-09-15T08:31:27Z ERROR service degraded due to memory exhaustion

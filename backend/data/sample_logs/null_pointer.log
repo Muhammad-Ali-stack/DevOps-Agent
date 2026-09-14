@@ -1,0 +1,8 @@
+2026-09-15T08:15:01Z INFO Service worker started
+2026-09-15T08:15:04Z INFO Loading customer config
+2026-09-15T08:15:06Z ERROR Unhandled exception in payment service
+2026-09-15T08:15:06Z ERROR NullPointerException: Cannot invoke "Customer.getId()" because "customer" is null
+2026-09-15T08:15:07Z ERROR Traceback (most recent call last):
+2026-09-15T08:15:07Z ERROR   File "/srv/app/handlers.py", line 99, in process_order
+2026-09-15T08:15:08Z ERROR   raise RuntimeError("processing failure")
+2026-09-15T08:15:09Z WARN Health endpoint degraded

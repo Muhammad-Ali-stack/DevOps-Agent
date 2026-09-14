@@ -1,0 +1,13 @@
+2026-09-15T09:12:01Z INFO Server started on port 4000
+2026-09-15T09:12:45Z INFO GET /api/users/8842 200 OK 45ms
+2026-09-15T09:13:02Z INFO GET /api/orders/551 200 OK 62ms
+2026-09-15T09:13:18Z INFO POST /api/checkout 200 OK 88ms
+2026-09-15T09:13:40Z WARN User object missing 'address' field for user_id=9931
+2026-09-15T09:13:41Z INFO GET /api/users/9931 200 OK 51ms
+2026-09-15T09:14:02Z ERROR Unhandled exception in checkout handler: Cannot read property 'zipCode' of undefined
+2026-09-15T09:14:02Z ERROR    at calculateShipping (checkout.js:47)
+2026-09-15T09:14:02Z ERROR    at processCheckout (checkout.js:112)
+2026-09-15T09:14:02Z ERROR    at /api/checkout (routes.js:89)
+2026-09-15T09:14:02Z ERROR Request failed with status 500 for user_id=9931
+2026-09-15T09:14:15Z WARN 3 checkout requests failed in the last 60s with the same stack trace
+2026-09-15T09:14:30Z INFO GET /api/users/1200 200 OK 40ms

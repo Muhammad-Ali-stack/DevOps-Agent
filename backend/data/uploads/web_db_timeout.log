@@ -1,0 +1,7 @@
+2026-09-15T08:00:01Z INFO Starting web application
+2026-09-15T08:00:05Z INFO Connected to Redis cache
+2026-09-15T08:00:10Z WARN DB healthcheck started
+2026-09-15T08:00:12Z ERROR Database connection timeout while fetching user_profile
+2026-09-15T08:00:12Z ERROR Could not complete request /api/profile due to timeout
+2026-09-15T08:00:13Z WARN Retrying request after 2 seconds
+2026-09-15T08:00:14Z INFO Request completed in 4200 ms
